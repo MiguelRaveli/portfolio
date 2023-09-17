@@ -22,7 +22,7 @@ const Apresentacao = ({
       {p2 && <p>{p2}</p>}
       {p3 && (
         <p>
-          <Link to={link}>{p3}</Link>{" "}
+          <Link to={link} target="_blank" rel="noopener noreferrer">{p3}</Link>{" "}
         </p>
       )}
     </div>
