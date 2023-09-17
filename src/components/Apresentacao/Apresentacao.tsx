@@ -1,4 +1,4 @@
-import styles from "../../routes/Home.module.css";
+import classes from "./Apresentacao.module.css"
 import { Link } from "react-router-dom";
 interface ApresentacaoProps {
   titulo: string;
@@ -16,7 +16,7 @@ const Apresentacao = ({
 }: ApresentacaoProps) => {
   
   return (
-    <div className={styles.apresentacao}>
+    <div className={classes.apresentacao}>
       <h1>{titulo}</h1>
       <p>{p1}</p>
       {p2 && <p>{p2}</p>}

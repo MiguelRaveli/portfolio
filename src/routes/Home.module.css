@@ -11,7 +11,7 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  border-left: .5vw solid;
+  border-left: 0.5vw solid;
   border-bottom: 1vw solid;
   border-radius: 5vw;
   animation: openingAnimation 0.5s ease-in-out;
@@ -28,34 +28,6 @@
 .container_apresentacao {
   display: flex;
   flex-direction: column;
-}
-
-.apresentacao {
-  display: flex;
-  flex-direction: column;
-}
-
-.apresentacao p {
-  width: 100%;
-  max-width: 40vw;
-  padding: 1vw;
-  font-family: "Raleway", sans-serif;
-  border-left: solid;
-  border-radius: 1vw;
-  font-size: 1vw;
-}
-
-.apresentacao a {
-  text-decoration: none;
-  color: #fff;
-  background: linear-gradient(0.25turn, #121416, #1d2124);
-  border-radius: 10px;
-  padding: 0.5vw;
-  transition: ease 1s;
-}
-
-.apresentacao a:hover {
-  filter: brightness(1.5);
 }
 
 .redes {
@@ -109,7 +81,6 @@
     transform: scale(1);
   }
 }
-
 
 @media (max-width: 480px) {
   .container_apresentacao {
