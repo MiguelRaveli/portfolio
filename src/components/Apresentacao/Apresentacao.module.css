@@ -1,0 +1,55 @@
+.apresentacao {
+  display: flex;
+  flex-direction: column;
+}
+
+.apresentacao p {
+  width: 100%;
+  max-width: 40vw;
+  padding: 1vw;
+  font-family: "Raleway", sans-serif;
+  border-left: solid;
+  border-radius: 1vw;
+  font-size: 1vw;
+}
+
+.apresentacao a {
+  text-decoration: none;
+  color: #fff;
+  background: linear-gradient(0.25turn, #121416, #1d2124);
+  border-radius: 10px;
+  padding: 0.5vw;
+  transition: ease 1s;
+}
+
+.apresentacao a:hover {
+  filter: brightness(1.5);
+}
+@media (max-width: 768px) {
+  .apresentacao {
+    padding: 1rem;
+  }
+
+  .apresentacao h1 {
+    font-size: 36px; /* Reduza o tamanho da fonte para telas menores */
+  }
+
+  .apresentacao p {
+    font-size: 18px; /* Reduza o tamanho da fonte para telas menores */
+  }
+}
+
+/* Estilos para computadores (tela grande) */
+@media (min-width: 769px) {
+  .apresentacao {
+    padding: 2rem;
+  }
+
+  .apresentacao h1 {
+    font-size: 48px; /* Tamanho da fonte para computadores */
+  }
+
+  .apresentacao p {
+    font-size: 20px; /* Tamanho da fonte para computadores */
+  }
+}
