@@ -28,12 +28,8 @@ const Home = () => {
     />,
   ];
 
-  const {
-    componenteAtual,
-    mudarParaHome,
-    mudarParaLearn,
-    mudarParaTodo,
-  } = mudarApresentacao(apresentacoes);
+  const { componenteAtual, mudarParaHome, mudarParaLearn, mudarParaTodo } =
+    mudarApresentacao(apresentacoes);
 
   return (
     <>
@@ -41,25 +37,13 @@ const Home = () => {
         <div className={styles.redes}>
           <div onClick={mudarParaHome} className={styles.Rimg}></div>
           <div className={styles.icons}>
-            <Link
-              to="https://github.com/MiguelRaveli"
-              target="_blank"
-              rel="noreferrer noopener nofollow"
-            >
+            <Link to="https://github.com/MiguelRaveli">
               <Icones Icone={AiFillGithub} />
             </Link>
-            <Link
-              to="https://www.linkedin.com/in/miguel-raveli-gusmao/"
-              target="_blank"
-              rel="noreferrer noopener nofollow"
-            >
+            <Link to="https://www.linkedin.com/in/miguel-raveli-gusmao/">
               <Icones Icone={AiFillLinkedin} />
             </Link>
-            <Link
-              to="mailto:miguelraveli123@gmail.com?"
-              target="_blank"
-              rel="noreferrer noopener nofollow"
-            >
+            <Link to="mailto:miguelraveli123@gmail.com?">
               <Icones Icone={AiFillMail} />
             </Link>
           </div>
