@@ -4,25 +4,25 @@
   justify-content: center;
   align-items: center;
   width: 70vw;
-  height: 90vh;
+  height: 80vh;
   flex-direction: column;
   -webkit-user-select: none;
   -webkit-touch-callout: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  border-left: 20px solid;
-  border-bottom: 20px solid;
-  border-radius: 200px;
+  border-left: .5vw solid;
+  border-bottom: 1vw solid;
+  border-radius: 5vw;
   animation: openingAnimation 0.5s ease-in-out;
 }
 
 .home h1 {
-  font-size: 80px;
+  font-size: 4vw;
 }
 
 .home h2 {
-  font-size: 40px;
+  font-size: 2vw;
 }
 
 .container_apresentacao {
@@ -37,12 +37,12 @@
 
 .apresentacao p {
   width: 100%;
-  max-width: 600px;
-  padding: 1rem;
+  max-width: 40vw;
+  padding: 1vw;
   font-family: "Raleway", sans-serif;
   border-left: solid;
-  border-radius: 20px;
-  font-size: 20px;
+  border-radius: 1vw;
+  font-size: 1vw;
 }
 
 .apresentacao a {
@@ -50,7 +50,7 @@
   color: #fff;
   background: linear-gradient(0.25turn, #121416, #1d2124);
   border-radius: 10px;
-  padding: 0.5rem;
+  padding: 0.5vw;
   transition: ease 1s;
 }
 
@@ -63,7 +63,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 70%;
+  width: 55vw;
 }
 
 .Rimg {
@@ -96,7 +96,7 @@
 
 .componentes {
   margin-right: 4rem;
-  height: 380px;
+  height: 40vh;
 }
 
 @keyframes openingAnimation {
