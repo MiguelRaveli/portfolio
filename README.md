@@ -1,27 +1,33 @@
-# React + TypeScript + Vite
+# Portfólio de Projetos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao meu Portfólio de Projetos! Aqui estão alguns dos meus principais projetos, demonstrando minha paixão pelo desenvolvimento web e minhas habilidades em ação.
 
-Currently, two official plugins are available:
+## Projetos Destacados
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Aprendizado de Novas Línguas
 
-## Expanding the ESLint configuration
+- Uma plataforma interativa para praticar tradução de frases em diferentes idiomas.
+- Escolha entre dois idiomas para tradução.
+- Classifique a dificuldade da tradução como "Fácil" ou "Difícil".
+- Acompanhe a contagem de traduções classificadas.
+- Ótimo para melhorar suas habilidades de tradução.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Lista de Tarefas
 
-- Configure the top-level `parserOptions` property like this:
+- Uma aplicação de gerenciamento de tarefas versátil e intuitiva.
+- Funcionalidades de adição, remoção e marcação de tarefas como completas ou incompletas.
+- Filtre tarefas por status (completas ou incompletas), pesquise por palavras-chave e ordene em ordem alfabética.
+- Ajuda a manter suas tarefas organizadas e eficientes.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+### GitHubFinder
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Uma ferramenta para encontrar perfis de usuários do GitHub com facilidade.
+- Fornece informações detalhadas, como foto de perfil, nome, localização, seguidores e quem o usuário segue.
+- Desenvolvida com tecnologias modernas, incluindo React, Vite e TypeScript.
+- Perfeita para explorar perfis de usuários do GitHub rapidamente.
+
+## Contato
+
+Se você estiver interessado em colaborar, tiver alguma pergunta ou apenas quiser se conectar, fique à vontade para entrar em contato através do meu [e-mail](mailto:miguelraveli123@gmail.com).
+
+Obrigado por visitar meu Portfólio de Projetos!
