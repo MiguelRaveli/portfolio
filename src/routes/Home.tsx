@@ -41,13 +41,25 @@ const Home = () => {
         <div className={styles.redes}>
           <div onClick={mudarParaHome} className={styles.Rimg}></div>
           <div className={styles.icons}>
-            <Link to="https://github.com/MiguelRaveli">
+            <Link
+              to="https://github.com/MiguelRaveli"
+              target="_blank"
+              rel="noreferrer noopener nofollow"
+            >
               <Icones Icone={AiFillGithub} />
             </Link>
-            <Link to="https://www.linkedin.com/in/miguel-raveli-gusmao/">
+            <Link
+              to="https://www.linkedin.com/in/miguel-raveli-gusmao/"
+              target="_blank"
+              rel="noreferrer noopener nofollow"
+            >
               <Icones Icone={AiFillLinkedin} />
             </Link>
-            <Link to="mailto:miguelraveli123@gmail.com?">
+            <Link
+              to="mailto:miguelraveli123@gmail.com?"
+              target="_blank"
+              rel="noreferrer noopener nofollow"
+            >
               <Icones Icone={AiFillMail} />
             </Link>
           </div>
