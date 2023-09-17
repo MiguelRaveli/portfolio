@@ -5,7 +5,7 @@
 
 .apresentacao p {
   width: 100%;
-  max-width: 40vw;
+  max-width: 100vw;
   padding: 1vw;
   font-family: "Raleway", sans-serif;
   border-left: solid;
@@ -25,31 +25,34 @@
 .apresentacao a:hover {
   filter: brightness(1.5);
 }
+
+/* Estilos para dispositivos de tela pequena (celulares) */
 @media (max-width: 768px) {
-  .apresentacao {
-    padding: 1rem;
+    .apresentacao {
+      padding: 1rem;
+    }
+  
+    .apresentacao h1 {
+      font-size: 36px; /* Reduza o tamanho da fonte para telas menores */
+    }
+  
+    .apresentacao p {
+      font-size: 18px; /* Reduza o tamanho da fonte para telas menores */
+    }
   }
-
-  .apresentacao h1 {
-    font-size: 36px; /* Reduza o tamanho da fonte para telas menores */
+  
+  /* Estilos para computadores (tela grande) */
+  @media (min-width: 769px) {
+    .apresentacao {
+      padding: 2rem;
+    }
+  
+    .apresentacao h1 {
+      font-size: 48px; /* Tamanho da fonte para computadores */
+    }
+  
+    .apresentacao p {
+      font-size: 20px; /* Tamanho da fonte para computadores */
+    }
   }
-
-  .apresentacao p {
-    font-size: 18px; /* Reduza o tamanho da fonte para telas menores */
-  }
-}
-
-/* Estilos para computadores (tela grande) */
-@media (min-width: 769px) {
-  .apresentacao {
-    padding: 2rem;
-  }
-
-  .apresentacao h1 {
-    font-size: 48px; /* Tamanho da fonte para computadores */
-  }
-
-  .apresentacao p {
-    font-size: 20px; /* Tamanho da fonte para computadores */
-  }
-}
+  
