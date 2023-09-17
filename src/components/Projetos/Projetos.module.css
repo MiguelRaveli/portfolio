@@ -5,10 +5,12 @@
   width: 100%; /* Ocupa toda a largura disponível */
   padding-left: 2rem;
   text-align: center;
+  
 }
 .projetos h2 {
   text-align: start;
   margin-right: auto;
+  
 }
 /* Estilos gerais que se aplicam a todas as telas */
 .nome_projetos h3 {
