@@ -1,0 +1,26 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+
+h2{
+  text-align: right;
+}
+
+p{
+  text-align: justify;
+}
+
+span{
+  text-align: left;
+}
+
+/* Set a background color and font for the whole page */
+body {
+  background-color: #24272c;
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+}

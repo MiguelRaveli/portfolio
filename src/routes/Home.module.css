@@ -1,0 +1,148 @@
+.home {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
+  height: 90vh;
+  flex-direction: column;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-left: 20px solid;
+  border-bottom: 20px solid;
+  border-radius: 200px;
+  animation: openingAnimation 0.5s ease-in-out;
+}
+
+.home h1 {
+  font-size: 80px;
+}
+
+.home h2 {
+  font-size: 40px;
+}
+
+.container_apresentacao {
+  display: flex;
+  flex-direction: column;
+}
+
+.apresentacao {
+  display: flex;
+  flex-direction: column;
+}
+
+.apresentacao p {
+  width: 100%;
+  max-width: 600px;
+  padding: 1rem;
+  font-family: "Raleway", sans-serif;
+  border-left: solid;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+.apresentacao a {
+  text-decoration: none;
+  color: #fff;
+  background: linear-gradient(0.25turn, #121416, #1d2124);
+  border-radius: 10px;
+  padding: 0.5rem;
+  transition: ease 1s;
+}
+
+.apresentacao a:hover {
+  filter: brightness(1.5);
+}
+
+.redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+
+.Rimg {
+  background-image: url("../img/R.png");
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  cursor: pointer;
+  transition: transform 0.3s, filter 0.3s;
+  margin-right: auto;
+}
+
+.Rimg:hover {
+  transform: scale(1.1);
+  filter: brightness(0.7);
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-bottom: 10px;
+}
+
+.container_home {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.componentes {
+  margin-right: 4rem;
+  height: 380px;
+}
+
+@keyframes openingAnimation {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+
+@media (max-width: 480px) {
+  .container_apresentacao {
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .apresentacao p {
+    max-width: 90%;
+    font-size: 28px;
+  }
+
+  .projetos {
+    max-width: 90%;
+  }
+
+  .redes {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+
+  .nome_projetos {
+    width: 100%;
+  }
+
+  .redes li {
+    margin: 0 0.2em;
+  }
+
+  .redes svg {
+    font-size: 1.5em;
+  }
+}

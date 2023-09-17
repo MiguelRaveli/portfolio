@@ -1,0 +1,30 @@
+/* Estilos gerais que se aplicam a todas as telas */
+.redes li {
+  margin: 0 0.5em;
+  list-style: none;
+}
+
+.redes svg {
+  font-size: 2em;
+  cursor: pointer;
+  transition: transform 0.3s, filter 0.3s;
+  color: #fff;
+}
+
+.redes svg:hover {
+  transform: scale(1.2);
+  filter: brightness(0.7);
+}
+
+/* Consulta de mídia para telas menores, por exemplo, telas com largura máxima de 768px */
+@media (max-width: 768px) {
+  .redes li {
+    margin: 0 0.2em; /* Reduz a margem para telas menores */
+  }
+
+  .redes svg {
+    font-size: 1.5em; /* Reduz o tamanho do ícone para telas menores */
+  }
+
+
+}
