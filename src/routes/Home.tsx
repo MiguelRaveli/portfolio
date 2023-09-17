@@ -26,9 +26,15 @@ const Home = () => {
       p3="Ver website"
       link="https://miguelraveli.github.io/To-Do-List-React/"
     />,
+    <Apresentacao
+      titulo="GitHubFinder"
+      p1="Esta é uma aplicação que permite a você pesquisar usuários do GitHub e exibir informações detalhadas sobre eles. Você pode encontrar a foto do usuário, nome, localização, seguidores e quem a pessoa segue."
+      p3="Ver website"
+      link="https://miguelraveli.github.io/GitHubFinder/"
+    />,
   ];
 
-  const { componenteAtual, mudarParaHome, mudarParaLearn, mudarParaTodo } =
+  const { componenteAtual, mudarParaHome, mudarParaLearn, mudarParaTodo , mudarParaGitHubFinder} =
     mudarApresentacao(apresentacoes);
 
   return (
@@ -56,6 +62,9 @@ const Home = () => {
             </div>
             <div onClick={mudarParaTodo} className={styles.projetos}>
               <Projetos projetos="To Do List" />
+            </div>
+            <div onClick={mudarParaGitHubFinder} className={styles.projetos}>
+              <Projetos projetos="GitHub Finder" />
             </div>
           </div>
         </div>

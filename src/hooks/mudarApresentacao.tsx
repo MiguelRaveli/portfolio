@@ -11,11 +11,16 @@ export const mudarApresentacao = (steps: JSX.Element[]) =>{
     const mudarParaTodo = () =>{
         setPaginaAtual(2)
     }
+    
+    const mudarParaGitHubFinder = () =>{
+        setPaginaAtual(3)
+    }
     return{
         paginaAtual,
         componenteAtual: steps[paginaAtual] ,
         mudarParaHome,
         mudarParaLearn,
         mudarParaTodo,
+        mudarParaGitHubFinder,
     }
 }
