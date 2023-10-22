@@ -6,13 +6,11 @@ Acesse o [portfólio](https://miguelraveli.github.io/portfolio/).
 
 ## Projetos Destacados
 
-### Aprendizado de Novas Línguas
+### Calculadora
 
-- Uma plataforma interativa para praticar tradução de frases em diferentes idiomas.
-- Escolha entre dois idiomas para tradução.
-- Classifique a dificuldade da tradução como "Fácil" ou "Difícil".
-- Acompanhe a contagem de traduções classificadas.
-- Ótimo para melhorar suas habilidades de tradução.
+- Realize cálculos de adição, subtração, multiplicação, divisão e potenciação.
+- Interface intuitiva e fácil de usar.
+- Adequado para cálculos simples e rápidos.
 
 ### Lista de Tarefas
 
