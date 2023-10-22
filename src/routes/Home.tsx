@@ -15,10 +15,10 @@ const Home = () => {
       link=""
     />,
     <Apresentacao
-      titulo="Learn Language"
-      p1="Um pequeno site onde é apenas possível visualizar dois idiomas: 'Inglês ; Italiano', onde contém algumas frases de seu idioma onde é possível apenas mostrar sua tradução e avançar para a próxima fase apertando em 'Fácil' ou 'Difícil'. No final é exibido a quantidade de frases que você contou como fácil ou difícil. Made with React+Vite."
+      titulo="Calculadora"
+      p1="Simplifique seus cálculos diários com a 'Calculadora Simples'. Essa ferramenta intuitiva oferece operações básicas, como soma, subtração, multiplicação, divisão e até mesmo potenciação. É a maneira perfeita de realizar cálculos com facilidade e rapidez. Traga simplicidade para suas operações matemáticas com a Calculadora Simples."
       p3="Ver website"
-      link="https://miguelraveli.github.io/Anki-Remake-Inspiration/"
+      link="https://miguelraveli.github.io/calculator/"
     />,
     <Apresentacao
       titulo="Lista de Tarefas"
@@ -34,8 +34,13 @@ const Home = () => {
     />,
   ];
 
-  const { componenteAtual, mudarParaHome, mudarParaLearn, mudarParaTodo , mudarParaGitHubFinder} =
-    mudarApresentacao(apresentacoes);
+  const {
+    componenteAtual,
+    mudarParaHome,
+    mudarParaLearn,
+    mudarParaTodo,
+    mudarParaGitHubFinder,
+  } = mudarApresentacao(apresentacoes);
 
   return (
     <>
@@ -57,14 +62,14 @@ const Home = () => {
         <div className={styles.container_home}>
           <div className={styles.componentes}>{componenteAtual}</div>
           <div className={styles.container_apresentacao}>
-            <div onClick={mudarParaLearn} className={styles.projetos}>
-              <Projetos titulo="Projetos" projetos="Learn Language" />
-            </div>
             <div onClick={mudarParaTodo} className={styles.projetos}>
-              <Projetos projetos="To Do List" />
+              <Projetos titulo="Projetos" projetos="To Do List" />
             </div>
             <div onClick={mudarParaGitHubFinder} className={styles.projetos}>
               <Projetos projetos="GitHub Finder" />
+            </div>
+            <div onClick={mudarParaLearn} className={styles.projetos}>
+              <Projetos projetos="Calculadora" />
             </div>
           </div>
         </div>
