@@ -15,6 +15,9 @@ export const mudarApresentacao = (steps: JSX.Element[]) =>{
     const mudarParaGitHubFinder = () =>{
         setPaginaAtual(3)
     }
+    const mudarParaPupPics = () =>{
+        setPaginaAtual(4)
+    }
     return{
         paginaAtual,
         componenteAtual: steps[paginaAtual] ,
@@ -22,5 +25,6 @@ export const mudarApresentacao = (steps: JSX.Element[]) =>{
         mudarParaLearn,
         mudarParaTodo,
         mudarParaGitHubFinder,
+        mudarParaPupPics
     }
 }

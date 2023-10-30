@@ -32,6 +32,12 @@ const Home = () => {
       p3="Ver website"
       link="https://miguelraveli.github.io/GitHubFinder/"
     />,
+    <Apresentacao
+      titulo="PupPics"
+      p1="Uma aplicação web que explora o mundo das raças de cachorros. Utilizando tecnologias modernas, como React, Vite e TypeScript, os usuários podem pesquisar, paginar e aprender detalhes sobre diversas raças caninas. A experiência é informativa e envolvente."
+      p3="Ver website"
+      link="https://miguelraveli.github.io/PupPics/"
+    />,
   ];
 
   const {
@@ -40,6 +46,7 @@ const Home = () => {
     mudarParaLearn,
     mudarParaTodo,
     mudarParaGitHubFinder,
+    mudarParaPupPics
   } = mudarApresentacao(apresentacoes);
 
   return (
@@ -70,6 +77,9 @@ const Home = () => {
             </div>
             <div onClick={mudarParaLearn} className={styles.projetos}>
               <Projetos projetos="Calculadora" />
+            </div>
+            <div onClick={mudarParaPupPics} className={styles.projetos}>
+              <Projetos projetos="PupPics" />
             </div>
           </div>
         </div>
