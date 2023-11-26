@@ -40,7 +40,7 @@ const Home = () => {
     />,
     <Apresentacao
       titulo="NewsNews"
-      p1="O NewsHub é seu portal central para notícias atualizadas, previsão do tempo e pesquisa eficiente. Desenvolvido com React, Next.js e TypeScript, este site utiliza a API NewsAPI para fornecer uma experiência informativa. Mantenha-se informado, explore notícias e verifique o clima de forma intuitiva. (A API utilizada é paga, e o plano gratuito oferece dados limitados destinados exclusivamente ao desenvolvimento.)"
+      p1="O NewsNews é seu portal central para notícias atualizadas, previsão do tempo e pesquisa eficiente. Desenvolvido com React, Next.js e TypeScript, este site utiliza a API NewsAPI para fornecer uma experiência informativa. Mantenha-se informado, explore notícias e verifique o clima de forma intuitiva. (A API utilizada é paga, e o plano gratuito oferece dados limitados destinados exclusivamente ao desenvolvimento.)"
       p3="Veja no GitHub"
       link="https://github.com/MiguelRaveli/NewsNews"
     />,
