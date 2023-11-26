@@ -38,6 +38,12 @@ const Home = () => {
       p3="Ver website"
       link="https://miguelraveli.github.io/PupPics/"
     />,
+    <Apresentacao
+      titulo="NewsNews"
+      p1="O NewsHub é seu portal central para notícias atualizadas, previsão do tempo e pesquisa eficiente. Desenvolvido com React, Next.js e TypeScript, este site utiliza a API NewsAPI para fornecer uma experiência informativa. Mantenha-se informado, explore notícias e verifique o clima de forma intuitiva. (A API utilizada é paga, e o plano gratuito oferece dados limitados destinados exclusivamente ao desenvolvimento.)"
+      p3="Veja no GitHub"
+      link="https://github.com/MiguelRaveli/NewsNews"
+    />,
   ];
 
   const {
@@ -46,7 +52,8 @@ const Home = () => {
     mudarParaLearn,
     mudarParaTodo,
     mudarParaGitHubFinder,
-    mudarParaPupPics
+    mudarParaPupPics,
+    mudarParaNews,
   } = mudarApresentacao(apresentacoes);
 
   return (
@@ -69,17 +76,20 @@ const Home = () => {
         <div className={styles.container_home}>
           <div className={styles.componentes}>{componenteAtual}</div>
           <div className={styles.container_apresentacao}>
-            <div onClick={mudarParaTodo} className={styles.projetos}>
-              <Projetos titulo="Projetos" projetos="To Do List" />
+            <div onClick={mudarParaPupPics} className={styles.projetos}>
+              <Projetos titulo="Projetos" projetos="PupPics" />
             </div>
-            <div onClick={mudarParaGitHubFinder} className={styles.projetos}>
-              <Projetos projetos="GitHub Finder" />
+            <div onClick={mudarParaNews} className={styles.projetos}>
+              <Projetos projetos="NewsNews" />
             </div>
             <div onClick={mudarParaLearn} className={styles.projetos}>
               <Projetos projetos="Calculadora" />
             </div>
-            <div onClick={mudarParaPupPics} className={styles.projetos}>
-              <Projetos projetos="PupPics" />
+            <div onClick={mudarParaGitHubFinder} className={styles.projetos}>
+              <Projetos projetos="GitHub Finder" />
+            </div>
+            <div onClick={mudarParaTodo} className={styles.projetos}>
+              <Projetos projetos="To Do List" />
             </div>
           </div>
         </div>
