@@ -6,25 +6,27 @@ Acesse o [portfólio](https://miguelraveli.github.io/portfolio/).
 
 ## Projetos Destacados
 
-### Calculadora
+### FashionFusion
 
-- Realize cálculos de adição, subtração, multiplicação, divisão e potenciação.
-- Interface intuitiva e fácil de usar.
-- Adequado para cálculos simples e rápidos.
+- Explore a moda de forma única com o FashionFusion.
+- Sistema abrangente de pesquisa, paginação e categorias para uma experiência de compra personalizada.
+- Modais elegantes proporcionam uma visualização detalhada dos produtos.
+- Navegue através de múltiplas páginas e descubra o que há de mais moderno na moda feminina.
 
-### Lista de Tarefas
+### PupPics
 
-- Uma aplicação de gerenciamento de tarefas versátil e intuitiva.
-- Funcionalidades de adição, remoção e marcação de tarefas como completas ou incompletas.
-- Filtre tarefas por status (completas ou incompletas), pesquise por palavras-chave e ordene em ordem alfabética.
-- Ajuda a manter suas tarefas organizadas e eficientes.
+- Descubra a fofura ilimitada do PupPics, um projeto conectado à API thedogapi.
+- Sistema de pesquisa que permite encontrar a raça de cachorro desejada.
+- Páginação intuitiva para explorar uma variedade de fotos de cachorros encantadores.
+- Detalhes exclusivos de cada cachorro em uma página dedicada, proporcionando uma experiência única para os amantes de cães.
 
-### GitHubFinder
+### NewsNewsm
 
-- Uma ferramenta para encontrar perfis de usuários do GitHub com facilidade.
-- Fornece informações detalhadas, como foto de perfil, nome, localização, seguidores e quem o usuário segue.
-- Desenvolvida com tecnologias modernas, incluindo React, Vite e TypeScript.
-- Perfeita para explorar perfis de usuários do GitHub rapidamente.
+- Mantenha-se atualizado com o NewsNewsm, um portal de notícias alimentado pela API newsAPI.
+- Sistema de pesquisa para encontrar notícias relevantes.
+- Página dedicada para cada notícia, oferecendo detalhes e informações aprofundadas.
+- Atualização diária das notícias para manter você informado.
+- Além disso, confira a seção de tempo para obter informações sobre o clima de diversas cidades.
 
 ## Contato
 
