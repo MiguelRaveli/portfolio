@@ -15,10 +15,10 @@ const Home = () => {
       link=""
     />,
     <Apresentacao
-      titulo="Calculadora"
-      p1="Simplifique seus cálculos diários com a 'Calculadora Simples'. Essa ferramenta intuitiva oferece operações básicas, como soma, subtração, multiplicação, divisão e até mesmo potenciação. É a maneira perfeita de realizar cálculos com facilidade e rapidez. Traga simplicidade para suas operações matemáticas com a Calculadora Simples."
+      titulo="FashionFusion"
+      p1="Explore a elegância em cada clique! O site de moda para mulheres oferece uma jornada única com pesquisa intuitiva, páginação suave, categorias encantadoras, modais inspiradores e múltiplas páginas que revelam o estilo em cada detalhe."
       p3="Ver website"
-      link="https://miguelraveli.github.io/calculator/"
+      link="https://miguelraveli.github.io/FashionFusion/"
     />,
     <Apresentacao
       titulo="Lista de Tarefas"
@@ -49,11 +49,9 @@ const Home = () => {
   const {
     componenteAtual,
     mudarParaHome,
-    mudarParaLearn,
-    mudarParaTodo,
-    mudarParaGitHubFinder,
     mudarParaPupPics,
     mudarParaNews,
+    mudarParaFashion,
   } = mudarApresentacao(apresentacoes);
 
   return (
@@ -79,17 +77,11 @@ const Home = () => {
             <div onClick={mudarParaPupPics} className={styles.projetos}>
               <Projetos titulo="Projetos" projetos="PupPics" />
             </div>
+            <div onClick={mudarParaFashion} className={styles.projetos}>
+              <Projetos projetos="FashionFusion" />
+            </div>
             <div onClick={mudarParaNews} className={styles.projetos}>
               <Projetos projetos="NewsNews" />
-            </div>
-            <div onClick={mudarParaLearn} className={styles.projetos}>
-              <Projetos projetos="Calculadora" />
-            </div>
-            <div onClick={mudarParaGitHubFinder} className={styles.projetos}>
-              <Projetos projetos="GitHub Finder" />
-            </div>
-            <div onClick={mudarParaTodo} className={styles.projetos}>
-              <Projetos projetos="To Do List" />
             </div>
           </div>
         </div>

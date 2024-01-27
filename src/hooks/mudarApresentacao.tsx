@@ -5,7 +5,7 @@ export const mudarApresentacao = (steps: JSX.Element[]) =>{
     const mudarParaHome = () =>{
         setPaginaAtual(0)
     }
-    const mudarParaLearn = () =>{
+    const mudarParaFashion = () =>{
         setPaginaAtual(1)
     }
     const mudarParaTodo = () =>{
@@ -26,10 +26,10 @@ export const mudarApresentacao = (steps: JSX.Element[]) =>{
         paginaAtual,
         componenteAtual: steps[paginaAtual] ,
         mudarParaHome,
-        mudarParaLearn,
         mudarParaTodo,
         mudarParaGitHubFinder,
         mudarParaPupPics,
-        mudarParaNews
+        mudarParaNews,
+        mudarParaFashion
     }
 }
