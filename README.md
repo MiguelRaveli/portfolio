@@ -20,7 +20,7 @@ Acesse o [portfólio](https://miguelraveli.github.io/portfolio/).
 - Páginação intuitiva para explorar uma variedade de fotos de cachorros encantadores.
 - Detalhes exclusivos de cada cachorro em uma página dedicada, proporcionando uma experiência única para os amantes de cães.
 
-### NewsNewsm
+### NewsNews
 
 - Mantenha-se atualizado com o NewsNewsm, um portal de notícias alimentado pela API newsAPI.
 - Sistema de pesquisa para encontrar notícias relevantes.
